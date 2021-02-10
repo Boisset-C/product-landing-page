@@ -1,5 +1,5 @@
 <template>
-<section class="header">
+<section class="container">
   <div class="logo">
     <img :src="require(`@/assets/images/logo.png`)"/>
   </div>
@@ -16,28 +16,23 @@ export default {
 </script>
 
 <style scoped>
-.header {
-  position: absolute;
-  width: 272px;
-  height: 64px;
-  left: 24px;
-  top: 0px;
-  background: transparent;
-}
 
-.burger {
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  left: 248px;
-  top: 20px;
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 320px;
 }
 
 .logo {
-  position: absolute;
+  padding: 10px 10px 10px 10px;
   width: 77px;
   height: 24px;
-  left: 0px;
-  top: calc(50% - 24px/2);
 }
+.burger {
+  padding: 10px 10px 10px 10px;
+  width: 24px;
+  height: 24px;
+}
+
 </style>

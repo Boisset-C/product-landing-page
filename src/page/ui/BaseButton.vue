@@ -34,12 +34,14 @@ button,
 a {
   text-decoration: none;
   padding: 0.75rem 1.5rem;
-  font: inherit;
+  font: Open sans;
   background-color:#1565D8;
   border: 1px solid#1565D8;
   color: white;
   cursor: pointer;
-  border-radius: 30px;
+  border-radius: 10px;
+  height: 48px;
+  width: 200px;
   margin-right: 0.5rem;
   display: inline-block;
 }
@@ -54,8 +56,9 @@ button:active {
 
 .flat {
   background-color: transparent;
-  color: #1565D8;
-  border: none;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  border-style: solid;
 }
 
 .outline {
