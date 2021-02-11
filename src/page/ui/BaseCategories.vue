@@ -9,7 +9,6 @@
 
 <script>
 export default {
-  props: {
     mode: {
       type: String,
       required: false,
@@ -26,52 +25,21 @@ export default {
       default: '/'
     }
   }
-}
 </script>
 
 <style scoped>
 button,
 a {
   text-decoration: none;
-  padding: 0.75rem 1.5rem;
   font: Open sans;
-  background-color:#1565D8;
-  border: 1px solid#1565D8;
-  color: white;
+  background-color: rgba(54, 179, 126, 0.2);
+  border: none;
+  color:  #36B37E;
   cursor: pointer;
-  border-radius: 10px;
-  height: 48px;
-  width: 200px;
+  border-radius: 15px;
+  height: 24px;
+  width: 92px;
   margin-right: 0.5rem;
   display: inline-block;
-}
-
-a:hover,
-a:active,
-button:hover,
-button:active {
-  background-color: #1565D8;
-  border-color: #1565D8;
-}
-
-.flat {
-  background-color: transparent;
-  color: #FFFFFF;
-  border-color: #FFFFFF;
-  border-style: solid;
- 
-}
-
-.outline {
-  background-color: #FFFFFF;
-  border-color: #1565D8;
-  color:  #1565D8;
-}
-
-.flat:hover,
-.flat:active,
-.outline:hover,
-.outline:active {
-  background-color: #edd2ff;
 }
 </style>

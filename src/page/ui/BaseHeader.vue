@@ -1,10 +1,10 @@
 <template>
 <section class="container">
   <div class="logo">
-    <img :src="require(`@/assets/images/logo.png`)"/>
+    <img :src="require(`@/assets/images/the-hero/logo.png`)"/>
   </div>
   <div class="burger">
-    <img :src="require(`@/assets/images/burger.png`)"/>
+    <img :src="require(`@/assets/images/the-hero/burger.png`)"/>
   </div>
 </section>
 </template>

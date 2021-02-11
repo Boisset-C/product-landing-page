@@ -17,7 +17,7 @@
     <base-button mode="flat">Watch Demo</base-button>
   </div>
   <div class="macbook">
-    <img :src="require(`@/assets/images/macbook.png`)"/>
+    <img :src="require(`@/assets/images/the-hero/macbook.png`)"/>
   </div>
 </section>
 </template>
@@ -46,7 +46,6 @@ export default {
 }
 .macbook {
   display: flex;
-  background: url('../../assets/images/macbook.png');
 }
 .title {
 display: flex;
