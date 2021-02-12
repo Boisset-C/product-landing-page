@@ -1,49 +1,32 @@
+
 <template>
-<div class="features-label">
-  <base-categories id="features">Features</base-categories>
+<div class="analytics-label">
+  <base-categories id="analytics">ANALYTICS</base-categories>
 </div>
 <div class="container">
-    <h2>Our solution for your business</h2>
-    <base-text>We are self-service data analytics software that lets you create visually appealling data visualizations and insightful dashboards in minutes.</base-text>
+    <h2>Analyze your data with our analyze tools</h2>
+    <base-text>Self-service data analytics software that lets you create visually appealling data visualizations and insightful dashboards in minutes.</base-text>
     <div class="icon">
-    <img :src="require(`@/assets/images/analytics-images/pie-icon.png`)"/>
+    <img :src="require(`@/assets/images/analytics-images/square-icon-analytics.png`)"/>
   </div>
-  <base-med-title>Analyze your data</base-med-title>
+  <base-med-title>Powerful dashboard</base-med-title>
     <base-text>Create reports with an easy to use drag-and-drop designer.</base-text>
       <div class="buttons">
         <button class="inquire">Learn more</button>
       </div>
   <div class="icon">
-      <img :src="require(`@/assets/images/analytics-images/shield-icon.png`)"/>
+      <img :src="require(`@/assets/images/analytics-images/circle-arrows-analytics.png`)"/>
   </div>
 
-  <base-med-title>Collaborate securely</base-med-title>
-    <base-text>Share/publish your reports with your colleagues</base-text>
+  <base-med-title>Always in Sync</base-med-title>
+    <base-text>Don't worry about the data, always be synchronized</base-text>
        <div class="buttons">
         <button class="inquire">Learn more</button>
       </div>
-
-    <div class="icon">
-    <img :src="require(`@/assets/images/analytics-images/dot-icon.png`)"/>
-  </div>
-  <base-med-title>Embedded analytics</base-med-title>
-    <base-text>Get a powerful analytics tool in your own brand name.</base-text>
          <div class="buttons">
-        <button class="inquire">Learn more</button>
+         <base-button mode="flat" class="try-free-btn">Try it out free</base-button>
       </div>
-      <div class="icon">
-    <img :src="require(`@/assets/images/analytics-images/square-dot-icon.png`)"/>
-  </div>
-
-       <base-med-title>Easy and Intuitive</base-med-title>
-    <base-text>Easily converse with your data using everyday language.</base-text>
-         <div class="buttons">
-        <button class="inquire">Learn more</button>
-      </div>
-
-  <div class="icon">
-    <img :src="require(`@/assets/images/analytics-images/feature-end.png`)"/>
-            </div>
+     
 </div>
           
 
@@ -81,12 +64,12 @@ h2 {
  display: flex;
  justify-content: center;
 }
-.features-label {
+.analytics-label {
   display: flex;
   justify-content: center;
   padding: 20px 5px 0px 5px;
 }
-#features {
+#analytics {
   display: flex;
   justify-content: center;
  
@@ -117,5 +100,21 @@ padding: 0px 5px 20px 5px;
   text-align: center;
   color: #1565D8;
   background: white;
+}
+
+.try-free-btn {
+  width: 200px;
+  height: 48px;
+  border-radius: 5px;
+  border-style: none;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: white;
+  background:  #1565D8;
 }
 </style>

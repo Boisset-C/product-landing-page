@@ -13,9 +13,11 @@ import BaseButton from './page/ui/BaseButton.vue';
 import BaseCategories from './page/ui/BaseCategories.vue';
 import BaseText from './page/ui/BaseText.vue';
 import BaseMedTitle from './page/ui/BaseMedTitle.vue';
+import BaseCard from './page/ui/BaseCard.vue';
 
 const app = createApp(App);
 
+app.component('base-card', BaseCard)
 app.component('base-med-title', BaseMedTitle)
 app.component('base-text', BaseText);
 app.component('base-categories', BaseCategories)

@@ -59,7 +59,6 @@ button:active {
   color: #FFFFFF;
   border-color: #FFFFFF;
   border-style: solid;
- 
 }
 
 .outline {
