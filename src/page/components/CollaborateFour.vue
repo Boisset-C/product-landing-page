@@ -5,8 +5,10 @@
 </div>
 <div class="container">
     <h2>Collaborate with your team anytime, anywhere.</h2>
+<div class="text">
     <base-text>See which work apps your team is working in, and join them with a click. Shared cursors equals better than screen-sharing.</base-text>
-    <ul>
+</div>
+    <ul class="list-style">
       <li>Organize your data</li>
       <li>Work with any team</li>
       <li>Business analytics</li>
@@ -76,5 +78,16 @@ ul {
 
   color: #183B56;
 }
+.text {
+  display: flex;
+  justify-self: center;
+}
 
+.list-style {
+  list-style: inside url("../../assets/images/base-images/list-style.png");
+ 
+}
+li {
+ text-align: left;
+}
 </style>

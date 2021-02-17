@@ -38,8 +38,9 @@ a {
   cursor: pointer;
   border-radius: 15px;
   height: 24px;
-  width: 92px;
+
   margin-right: 0.5rem;
+  padding: 5px 5px 5px 5px;
   display: inline-block;
 }
 </style>

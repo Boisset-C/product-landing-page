@@ -12,18 +12,28 @@
   <li>Bill Annually</li>
   <li>Save 15%</li>
 </ul>
+
+  <base-standard></base-standard>
+  <base-essentials></base-essentials>
+  <base-premium></base-premium>
+
+
 </template>
 
 <script>
+import BaseStandard from '../ui/BaseStandard.vue';
 import BaseCategories from '../ui/BaseCategories.vue';
 import BaseText from '../ui/BaseText.vue';
-
+import BaseEssentials from '../ui/BaseEssentials.vue';
+import BasePremium from '../ui/BasePremium.vue';
 
 export default {
   components: { 
     BaseCategories,
     BaseText,
-
+    BaseStandard,
+    BaseEssentials,
+    BasePremium,
 
     },
   
@@ -31,6 +41,9 @@ export default {
 </script>
 
 <style scoped>
+.pricing-label {
+  width: 300px;
+}
 h2 {
   font-family: HK Grotesk, sans-serif;
   font-style: normal;

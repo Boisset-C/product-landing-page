@@ -59,7 +59,6 @@ export default {
   display: grid;
   width: 320px;
   height:10102px;
-
   background: #FFFFFF;
 }
 </style>

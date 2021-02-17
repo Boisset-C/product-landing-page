@@ -13,11 +13,15 @@ import BaseButton from './page/ui/BaseButton.vue';
 import BaseCategories from './page/ui/BaseCategories.vue';
 import BaseText from './page/ui/BaseText.vue';
 import BaseMedTitle from './page/ui/BaseMedTitle.vue';
-import BaseCard from './page/ui/BaseCard.vue';
+import BaseStandard from './page/ui/BaseStandard.vue';
+import BasePremium from './page/ui/BasePremium.vue';
+import BaseEssentials from './page/ui/BaseEssentials.vue';
 
 const app = createApp(App);
 
-app.component('base-card', BaseCard)
+app.component('base-essential', BaseEssentials)
+app.component('base-premium', BasePremium)
+app.component('base-standard', BaseStandard)
 app.component('base-med-title', BaseMedTitle)
 app.component('base-text', BaseText);
 app.component('base-categories', BaseCategories)

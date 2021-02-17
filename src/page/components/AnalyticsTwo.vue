@@ -5,12 +5,16 @@
 </div>
 <div class="container">
     <h2>Analyze your data with our analyze tools</h2>
+  <div class="text">
     <base-text>Self-service data analytics software that lets you create visually appealling data visualizations and insightful dashboards in minutes.</base-text>
+  </div>  
     <div class="icon">
     <img :src="require(`@/assets/images/analytics-images/square-icon-analytics.png`)"/>
   </div>
   <base-med-title>Powerful dashboard</base-med-title>
+  <div class="text">
     <base-text>Create reports with an easy to use drag-and-drop designer.</base-text>
+  </div>    
       <div class="buttons">
         <button class="inquire">Learn more</button>
       </div>
@@ -19,7 +23,9 @@
   </div>
 
   <base-med-title>Always in Sync</base-med-title>
+  <div class="text">
     <base-text>Don't worry about the data, always be synchronized</base-text>
+  </div>     
        <div class="buttons">
         <button class="inquire">Learn more</button>
       </div>
@@ -87,7 +93,7 @@ padding: 0px 5px 20px 5px;
 }
 
 .inquire {
-  width: 110px;
+ 
   height: 22px;
   border-radius: 585px;
   border-style: none;
@@ -116,5 +122,9 @@ padding: 0px 5px 20px 5px;
   text-align: center;
   color: white;
   background:  #1565D8;
+}
+.text {
+  display: flex;
+  justify-content: center;
 }
 </style>

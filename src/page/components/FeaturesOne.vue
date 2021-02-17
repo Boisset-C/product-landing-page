@@ -4,12 +4,16 @@
 </div>
 <div class="container">
     <h2>Our solution for your business</h2>
+<div class="text">
     <base-text>We are self-service data analytics software that lets you create visually appealling data visualizations and insightful dashboards in minutes.</base-text>
+</div>
     <div class="icon">
     <img :src="require(`@/assets/images/features-images/pie-icon.png`)"/>
   </div>
   <base-med-title>Analyze your data</base-med-title>
+  <div class="text">
     <base-text>Create reports with an easy to use drag-and-drop designer.</base-text>
+  </div>
       <div class="buttons">
         <button class="inquire">Learn more</button>
       </div>
@@ -18,7 +22,9 @@
   </div>
 
   <base-med-title>Collaborate securely</base-med-title>
+  <div class="text">
     <base-text>Share/publish your reports with your colleagues</base-text>
+  </div>
        <div class="buttons">
         <button class="inquire">Learn more</button>
       </div>
@@ -27,7 +33,9 @@
     <img :src="require(`@/assets/images/features-images/dot-icon.png`)"/>
   </div>
   <base-med-title>Embedded analytics</base-med-title>
+  <div class="text">
     <base-text>Get a powerful analytics tool in your own brand name.</base-text>
+  </div>
          <div class="buttons">
         <button class="inquire">Learn more</button>
       </div>
@@ -36,7 +44,9 @@
   </div>
 
        <base-med-title>Easy and Intuitive</base-med-title>
+<div class="text">
     <base-text>Easily converse with your data using everyday language.</base-text>
+</div>
          <div class="buttons">
         <button class="inquire">Learn more</button>
       </div>
@@ -95,6 +105,7 @@ h2 {
  display: grid;
  justify-content: center;
  align-items: center;
+ 
 }
 
 .buttons {
@@ -104,7 +115,7 @@ padding: 0px 5px 20px 5px;
 }
 
 .inquire {
-  width: 110px;
+
   height: 22px;
   border-radius: 585px;
   border-style: none;
@@ -117,5 +128,10 @@ padding: 0px 5px 20px 5px;
   text-align: center;
   color: #1565D8;
   background: white;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
 }
 </style>

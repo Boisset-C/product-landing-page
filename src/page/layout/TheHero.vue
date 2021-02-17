@@ -8,10 +8,10 @@
       <br />analytics tools for your business</p>
   </div>
   <div class="text">
-    <p>An awesome and powerful tool for your business, increase business revenue with enterprise-grade links built to acquire and engage customers</p>
+    <p>An awesome and powerful tool for your business, increase business revenue with enterprise-grade links built to acquire and engage customers.</p>
   </div>
    <div class="get-started-btn">
-    <base-button mode="outline">Get started</base-button>
+    <base-button mode="outline">Get Started</base-button>
   </div> 
   <div class="watch-demo-btn">
     <base-button mode="flat">Watch Demo</base-button>

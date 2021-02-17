@@ -1,11 +1,14 @@
 
 <template>
-<div class="integration-label">
-  <base-categories id="integration">INTEGRATION</base-categories>
-</div>
+
 <div class="container">
+  <div class="integration-label">
+  <base-categories class="integration">INTEGRATION</base-categories>
+</div>
     <h2>Seamless integrations with other analytics tools</h2>
+  <div class="text">
     <base-text>Polygon absolutely works great with tools in your other existing platform.</base-text>
+  </div>
     <div class="icon">
     <img :src="require(`@/assets/images/integration-images/icon-swirl-integration.png`)"/>
   </div>
@@ -16,9 +19,8 @@
   <div class="brand-icon">
    <img :src="require(`@/assets/images/integration-images/airbnb-original-integration.png`)"/>
   </div>
+  <div class="text-review">
   <base-text>I received great customer service from specialists who helped me. I would recommend to anyone who wants great dashboard that has great quality</base-text>
-   <div class='headshot'>
-   <img :src="require(`@/assets/images/integration-images/companies-integration.png`)"/>
   </div>
    <div class="brand-icon">
    <img :src="require(`@/assets/images/integration-images/review-avatar-integration.png`)"/>
@@ -30,6 +32,7 @@
      <div class="brand-icon">
    <img :src="require(`@/assets/images/integration-images/amazon-integration.png`)"/>
   </div>
+  <div class="text-review">
     <base-text>My experience with this platform so far has been great. Everything is easy, from creating visualization, scheduling, collaboration and many more.</base-text>
      <div class="headshot">
    <img :src="require(`@/assets/images/integration-images/second-review-avatar-integration.png`)"/>
@@ -38,7 +41,7 @@
      <ul>
       <li>Verified customer</li>
     </ul>
-
+  </div>
 </div>
           
 
@@ -98,4 +101,9 @@ justify-content: center;
 padding: 0px 5px 20px 5px;
 }
 
+.integration-label {
+  display: flex;
+  justify-self: center;
+  padding: 25px 5px 5px 5px;
+}
 </style>

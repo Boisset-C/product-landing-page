@@ -12,7 +12,7 @@ p {
   font-size: 16px;
   line-height: 28px;
   text-align: center;
-
+  width: 272px;
   color: #5A7184;
 }
 </style>
